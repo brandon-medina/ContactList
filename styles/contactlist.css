@@ -1,0 +1,24 @@
+/* ContactList.css */
+.contact-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  .contact-list th,
+  .contact-list td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #fdfdfd;
+  }
+  .contact-list th {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .contact-list tr:nth-child(even) {
+    background-color: #898989;
+    color:#fbfbfb;
+  }
+  .contact-list tr:hover {
+    background-color: #04AA6D;
+    cursor: pointer;
+  }
